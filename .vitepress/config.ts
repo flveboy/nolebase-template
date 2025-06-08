@@ -10,7 +10,7 @@ import { UnlazyImages } from '@nolebase/markdown-it-unlazy-img'
 
 import { discordLink, githubRepoLink, siteDescription, siteName, targetDomain } from '../metadata'
 import { creatorNames, creatorUsernames } from './creators'
-import { sidebar } from './docsMetadata.json'
+import { calculateSidebar } from '@nolebase/vitepress-plugin-sidebar'; // 引入插件
 
 export default defineConfig({
   vue: {
@@ -210,9 +210,14 @@ export default defineConfig({
     nav: [
       { text: '主页', link: '/' },
       { text: '笔记', link: '/笔记/' },
+      { text: '万象视界', link: '/万象视界/' },
       { text: '最近更新', link: '/toc' },
     ],
-    sidebar,
+    sidebar:calculateSidebar([
+        {folderName:'笔记',separate:true},
+        {folderName:'万象视界',separate:true}
+      ]
+    ),
   },
   markdown: {
     theme: {
