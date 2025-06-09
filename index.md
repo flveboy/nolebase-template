@@ -22,6 +22,9 @@ hero:
     - theme: alt
       text: 数字花园
       link: https://loongdiary.netlify.app/
+    - theme: alt
+      text: mmPlayer
+      link: https://netease-music.fe-mm.com
 
 features:
   - title: 生活纪录舱
