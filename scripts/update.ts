@@ -11,7 +11,7 @@ import uniq from 'lodash/uniq'
 import TagsAlias from '../.vitepress/docsTagsAlias.json'
 import type { ArticleTree, DocsMetadata, DocsTagsAlias, Tag } from './types/metadata'
 
-const dir = './'
+const dir = './contents/'
 const target = '笔记/'
 const folderTop = true
 

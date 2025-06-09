@@ -208,15 +208,15 @@ export default defineConfig({
       },
     },
     nav: [
-      { text: '主页', link: '/' },
+      { text: '主页', link: '/contents/' },
       { text: '导航', link: 'https://fe-nav.netlify.app/nav/' },
-      { text: '笔记', link: '/笔记/' },
-      { text: '万象视界', link: '/万象视界/' },
-      { text: '最近更新', link: '/toc' },
+      { text: '笔记', link: '/contents/笔记/' },
+      { text: '万象视界', link: '/contents/万象视界/' },
+      { text: '最近更新', link: '/contents/toc' },
     ],
     sidebar:calculateSidebar([
-        {folderName:'笔记',separate:true},
-        {folderName:'万象视界',separate:true}
+        {folderName:'contents/笔记',separate:true},
+        {folderName:'contents/万象视界',separate:true}
       ]
     ),
   },
