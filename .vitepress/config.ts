@@ -13,7 +13,6 @@ import { creatorNames, creatorUsernames } from './creators'
 import { calculateSidebar } from '@nolebase/vitepress-plugin-sidebar'; // 引入插件
 
 export default defineConfig({
-  base: '/contents/',
   vue: {
     template: {
       transformAssetUrls: {
@@ -208,6 +207,8 @@ export default defineConfig({
         },
       },
     },
+    base: '/contents/',
+
     nav: [
       { text: '主页', link: '/contents/' },
       { text: '导航', link: 'https://fe-nav.netlify.app/nav/' },
