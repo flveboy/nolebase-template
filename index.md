@@ -22,7 +22,10 @@ hero:
     - theme: alt
       text: 数字花园
       link: https://loongdiary.netlify.app/
-
+    - theme: alt
+      text: mmPlayer
+      link: https://netease-music.fe-mm.com
+      
 features:
   - title: 生活纪录舱
     details: 「收藏日常的星光」，收纳散步见闻、午后思绪，每段文字都是生活散落的星光碎片
