@@ -4,6 +4,6 @@
 
 
 branch info：
-main： 笔记、万象视界等目录是存在根目录下面的；loongday
-dev：笔记、万象视界等目录是存在根目录下面的；loongnotes
-feature/combination：笔记、万象视界等目录放在 contents 目录下；loongnote
+- main： 笔记、万象视界等目录是存在根目录下面的；loongday
+- dev：笔记、万象视界等目录是存在根目录下面的；loongnotes
+- feature/combination：笔记、万象视界等目录放在 contents 目录下；loongnote
