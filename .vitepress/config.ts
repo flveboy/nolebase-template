@@ -207,8 +207,6 @@ export default defineConfig({
         },
       },
     },
-    base: '/contents/',
-
     nav: [
       { text: '主页', link: '/contents/' },
       { text: '导航', link: 'https://fe-nav.netlify.app/nav/' },
