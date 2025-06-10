@@ -13,6 +13,7 @@ import { creatorNames, creatorUsernames } from './creators'
 import { calculateSidebar } from '@nolebase/vitepress-plugin-sidebar'; // 引入插件
 
 export default defineConfig({
+  base: '/contents/',
   vue: {
     template: {
       transformAssetUrls: {
