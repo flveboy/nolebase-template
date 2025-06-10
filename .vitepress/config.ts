@@ -217,7 +217,7 @@ export default defineConfig({
     sidebar:calculateSidebar([
         {folderName:'contents/笔记',separate:true},
         {folderName:'contents/万象视界',separate:true}
-      ]
+      ],'contents'
     ),
   },
   markdown: {
