@@ -72,7 +72,7 @@ html, body {
   max-width: unset;
 }
 
-.VPSidebarItem.level-0 {
+.VPSidebarItem.level-0[data-v-75fc1717] {
   padding-bottom: 8px; /* 覆盖原 24px，按需求改 */
 }
 
