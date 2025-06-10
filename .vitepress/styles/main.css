@@ -72,6 +72,10 @@ html, body {
   max-width: unset;
 }
 
+.VPSidebarItem.level-0[data-v-75fc1717] {
+  padding-bottom: 8px; /* 覆盖原 24px，按需求改 */
+}
+
 /* 标题所需要的字体 */
 @font-face {
   font-family: tengwarannatar;
